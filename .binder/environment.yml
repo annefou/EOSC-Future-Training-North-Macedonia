@@ -1,4 +1,4 @@
-name: bids23
+name: eosc101
 channels:
   - conda-forge
   - defaults

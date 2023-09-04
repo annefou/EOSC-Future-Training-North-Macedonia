@@ -18,16 +18,16 @@ jobs:
         uses: mamba-org/setup-micromamba@v1
         with:
           environment-file: .binder/environment.yml
-          environment-name: bids23
+          environment-name: eosc101
           condarc: |
             channels:
               - conda-forge
       # Build the book
       - name: Build the book
         run: |
-          jupyter-book build tutorial
+          jupyter-book build workshop
       # Upload artifact for preview
       - uses: actions/upload-artifact@v3
         with:
           name: jupyterbook-html
-          path: tutorial/_build/html
+          path: workshop/_build/html
