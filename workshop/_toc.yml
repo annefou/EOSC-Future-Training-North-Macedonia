@@ -1,0 +1,28 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: general_info
+parts:
+- caption: About
+  chapters:
+  - file: about/timeline
+    title: Workshop timeline
+
+- caption: Before the workshop
+  chapters:
+  - file: before/setup
+
+- caption: EOSC 101
+  chapters:
+  - file: eosc101/introduction
+    title: EOSC step by step
+
+- caption: Beyond the workshop
+  chapters:
+  - file: afterword/resources
+    title: Resources
+  - file: afterword/pythia
+    title: Project Pythia
+  - file: afterword/envds-book
+    title: Environmental Data Science Book
