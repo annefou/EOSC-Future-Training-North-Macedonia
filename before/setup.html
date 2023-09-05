@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Setup: how to run the tutorial &#8212; EOSC 101 - A step by step guide</title>
+    <title>Setup: get ready for the workshop &#8212; EOSC 101 - A step by step guide</title>
   
   
   
@@ -164,7 +164,7 @@ const thebe_selector_output = ".output, .cell_output"
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Before the workshop</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Setup: how to run the tutorial</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Setup: get ready for the workshop</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">EOSC 101</span></p>
 <ul class="nav bd-sidenav">
@@ -365,7 +365,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Setup: how to run the tutorial</h1>
+    <h1>Setup: get ready for the workshop</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -375,9 +375,7 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#running-the-tutorial-on-the-european-open-science-cloud-eosc">Running the tutorial on the European Open Science Cloud (EOSC)</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#running-on-your-own-computer">Running on your own computer</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#running-using-a-binderhub-deployment">Running using a Binderhub deployment</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#register-to-eosc-services-the-european-open-science-cloud-eosc">Register to EOSC services the European Open Science Cloud (EOSC)</a></li>
 </ul>
             </nav>
         </div>
@@ -389,70 +387,23 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="setup-how-to-run-the-tutorial">
-<h1>Setup: how to run the tutorial<a class="headerlink" href="#setup-how-to-run-the-tutorial" title="Permalink to this heading">#</a></h1>
-<p>This tutorial’s goal is to provide a wide introduction to EOSC and some core EOSC services.</p>
-<p>This page will describe three ways of running the tutorial:</p>
-<ul class="simple">
-<li><p>Through EOSC resources (recommended)</p></li>
-<li><p>Locally on your personal computer</p></li>
-<li><p>Using other available Binderhubs solutions</p></li>
-</ul>
-<section id="running-the-tutorial-on-the-european-open-science-cloud-eosc">
-<h2>Running the tutorial on the European Open Science Cloud (EOSC)<a class="headerlink" href="#running-the-tutorial-on-the-european-open-science-cloud-eosc" title="Permalink to this heading">#</a></h2>
-<p>First, before the workshop, all the participants will have to create an EGI account and enroll to the the Virtual Organisations to have access to EOSC EGI JupyterHub and/or EOSC EGI BinderHub.
-There are several steps to follow:</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="setup-get-ready-for-the-workshop">
+<h1>Setup: get ready for the workshop<a class="headerlink" href="#setup-get-ready-for-the-workshop" title="Permalink to this heading">#</a></h1>
+<p>The workshop goal is to provide a wide introduction to the European Open Science Cloud (EOSC) and some core EOSC services. Follow the steps below to get access to the EOSC services we will be using during the practicals.</p>
+<section id="register-to-eosc-services-the-european-open-science-cloud-eosc">
+<h2>Register to EOSC services the European Open Science Cloud (EOSC)<a class="headerlink" href="#register-to-eosc-services-the-european-open-science-cloud-eosc" title="Permalink to this heading">#</a></h2>
+<p>First, before the workshop, all the participants will have to create an EGI account, register to <a class="reference external" href="https://www.rohub.org/">ROHub</a> (Data management platform), enroll to the the Virtual Organisations to have access to EOSC EGI JupyterHub and/or EOSC EGI BinderHub.</p>
+<p>There are several steps to follow:</p>
 <ol class="arabic simple">
 <li><p>Sign up for an EGI account:  <a class="reference external" href="https://aai.egi.eu/signup">https://aai.egi.eu/signup</a>. We recommend to use  your <a class="reference external" href="https://orcid.org/">ORCID</a> account to authenticate (create an ORCID account if you do not have one yet).</p></li>
 <li><p>Enroll to the <strong><a class="reference external" href="http://vo.notebooks.egi.eu">vo.notebooks.egi.eu</a></strong> VO by clicking on <a class="reference external" href="https://aai.egi.eu/registry/co_petitions/start/coef:111">https://aai.egi.eu/registry/co_petitions/start/coef:111</a>. This will take you to the website shown on the Figure <img alt="EGI account" src="../_images/EGI-VO.png" /> and then to <img alt="EGI join VO notebook" src="../_images/EGI-join-VO.png" />. For the latter e.g. when asking to join the EGI VO notebook,  in the “statement for purpose” simply write “<strong>To execute Jupyter notebooks at the EOSC 101 workshop in the frame of the FOSS4G-2022 conference</strong>”. Review and agree on the policy and click on “Submit”. Once your enrollment has been validated you will have access to <a class="reference external" href="https://replay.notebooks.egi.eu/">/https://replay.notebooks.egi.eu/</a> (it requires you to authenticate using EGI Check-in credentials), a service building on BinderHub but with more compute resources than <a class="reference external" href="https://mybinder.org/">https://mybinder.org/</a>.</p></li>
+<li><p>Register to <a class="reference external" href="https://www.rohub.org/">ROHub</a> by clicking on “Sign-up” (top right button) at <a class="reference external" href="https://www.rohub.org/">https://www.rohub.org/</a>. You will be re-directed to a webpage where you can click on “Register”: <img alt="Register to ROHub" src="../_images/register_ROHub.png" />. Once you click on “Register” the registration form opens. <img alt="ROHub registration form" src="https://box.psnc.pl/f/ef8a6b0b57/?raw=1" />. In the various fields of the form the user can provide registration details (e.g. first name, last name, email, and password). The registration procedure completes on clicking the “Register” at the end of the form and “Back to Login” navigates the user back to the login page. Then select “Login with EGI Check-in” and use your <a class="reference external" href="https://orcid.org/">ORCID</a> account to authenticate. The rest will be shown during the workshop. However, if you want already to get more information, visit the <a class="reference external" href="https://reliance-eosc.github.io/rohub-portal-documentation/docs/ROHub-authentication">ROHub Authentication</a> documentation.</p></li>
 </ol>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>It is <strong>important</strong> to perform all these steps <strong>as early as possible</strong> in order for managers of the Virtual Organisations to approve your petitions to join (which may <strong>take several days</strong>).</p>
 </div>
 <p>Once your enrollments have been validated, you may need to log out from EGI Check-in to refresh your account. If you have any trouble, request help by <a class="reference external" href="https://github.com/annefou/EOSC-Future-Training-North-Macedonia/issues/new">filling an issue</a> before the workshop. Someone will assist you with the setup.</p>
-<p>Alternatively, you can also open notebooks one by one from the EOSC 101 section of this Jupyterbook by clicking on the rocket icon 🚀 on top of the notebook and choosing Jupyterhub option.</p>
-</section>
-<section id="running-on-your-own-computer">
-<h2>Running on your own computer<a class="headerlink" href="#running-on-your-own-computer" title="Permalink to this heading">#</a></h2>
-<p>Most parts of this tutorial were designed to run with limited computer resources, so it is possible to run on your laptop.
-It is a bit more complicated as you will have to install the software environment yourself. Also you will not be able to test real cloud distributed processing with Dask gateway.</p>
-<p>Steps to run this tutorial on your own computer are listed below and demonstrated <em>through Linux commands only</em>:</p>
-<ol class="arabic simple">
-<li><p>git clone this repository.</p></li>
-</ol>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/annefou/EOSC-Future-Training-North-Macedonia.git
-</pre></div>
-</div>
-<ol class="arabic simple" start="2">
-<li><p>Install the required software environment with Conda. If you do not have Conda, install it by following these instructions (see <a class="reference external" href="https://docs.conda.io/en/latest/miniconda.html">here</a>). Then create the environment, this can take a few minutes.</p></li>
-</ol>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>env<span class="w"> </span>create<span class="w"> </span>-n<span class="w"> </span>eosc101<span class="w"> </span>-f<span class="w"> </span>EOSC-Future-Training-North-Macedonia/.binder/environment.yml
-</pre></div>
-</div>
-<ol class="arabic simple" start="3">
-<li><p>Launch a Jupyterlab notebook server from this environment.</p></li>
-</ol>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>activate<span class="w"> </span>eosc101
-jupyter<span class="w"> </span>lab
-</pre></div>
-</div>
-<ol class="arabic simple" start="4">
-<li><p>Open a web browser and connect to the Jupyterlab provided URL (you should see it in the jupyter lab command outputs), something like: <a class="reference external" href="http://localhost:8888/lab?token=42fac6733c6854578b981bca3abf5152">http://localhost:8888/lab?token=42fac6733c6854578b981bca3abf5152</a>.</p></li>
-<li><p>Navigate to EOSC-Future-Training-North-Macedonia/workshop/eosc101/ using the file browser on the left side of the Jupyterlab screen.</p></li>
-</ol>
-</section>
-<section id="running-using-a-binderhub-deployment">
-<h2>Running using a Binderhub deployment<a class="headerlink" href="#running-using-a-binderhub-deployment" title="Permalink to this heading">#</a></h2>
-<p><a class="reference external" href="https://binderhub.readthedocs.io/en/latest/">Binderhub</a> is a cloud service that allows users to share reproducible interactive computing environments from code repositories. It is generally used to enable other users to easily run your own code through Jupyter notebooks.
-It is a really cool service offered for free by several organisations (MyBinder through Jupyter, GESIS, etc.).</p>
-<p>It is probably the easiest way to execute notebooks in this repository, as you only have to do one click to arrive in a Jupyterlab with all the necessary libraries.
-However, the hardware resources of the public BinderHub are quite small, so you may have issues with parts of the notebooks will be unavailable.</p>
-<p>All the notebooks on the EOSC 101 section have a rocket icon 🚀 at the top, from which you can select the Binder button to just run this notebook on the <a class="reference external" href="https://replay.notebooks.egi.eu/">EGI Binder service</a>.</p>
-<p>Alternatively, you can also directly click on the below buttons:d</p>
-<p>MyBinder:</p>
-<p><a class="reference external" href="https://mybinder.org/v2/gh/annefou/EOSC-Future-Training-North-Macedonia/HEAD"><img alt="Binder" src="https://mybinder.org/badge_logo.svg" /></a></p>
-<p>You will then have to navigate to the EOSC-Future-Training-North-Macedonia/workshop/eosc101/ folder using the file browser on the left side of the Jupyterlab screen.</p>
 </section>
 </section>
 
@@ -523,9 +474,7 @@ However, the hardware resources of the public BinderHub are quite small, so you 
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#running-the-tutorial-on-the-european-open-science-cloud-eosc">Running the tutorial on the European Open Science Cloud (EOSC)</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#running-on-your-own-computer">Running on your own computer</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#running-using-a-binderhub-deployment">Running using a Binderhub deployment</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#register-to-eosc-services-the-european-open-science-cloud-eosc">Register to EOSC services the European Open Science Cloud (EOSC)</a></li>
 </ul>
   </nav></div>
 
