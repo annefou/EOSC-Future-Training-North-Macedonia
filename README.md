@@ -1,49 +1,23 @@
-# Scaling Big Data Analysis with Pangeo and OpenEO: Unlocking the Power of Space Data
+# EOSC-Future Training in North Macedonia
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-This repository contains the documentation and jupyter notebooks used for delivering tutorial to BiDS'23.
-
-<img src="tutorial/figures/pangeo_logo.png" width="180" align="Left" /></a>
-<img src="tutorial/figures/EGI-ACE_logo.png" width="180" align="Right" /></a>
+This repository contains the documentation, presentations and jupyter notebooks used for delivering EOSC-Future workshop in North Macedonia (11-13 September 2023).
 
 <br>
 
-The content of this repository (folder `tutorial`) is rendered as an online document using [Jupyter Book](https://jupyterbook.org/en/stable/intro.html). **You can access it [here](https://pangeo-data.github.io/pangeo-openeo-BiDS-2023)**.
+The content of this repository (folder `workshop`) is rendered as an online document using [Jupyter Book](https://jupyterbook.org/en/stable/intro.html). **You can access it [here](https://annefou.github.io/EOSC-Future-Training-North-Macedonia)**.
 
 ## Agenda
 
-**Part-1: Pangeo**
-
-- 9:00  Welcome (5 minutes)
-- 9:05 Introduction and Motivation (15 minutes)
-- 9:20 Overview of the Pangeo ecosystem (20 minutes)
-- 9:40 Understanding Xarray to avoid common pitfalls (30 minutes)
-- 10:10  Interactive Visualization with Hvplot (20 minutes)
-- 10:30 Break (30 minutes)
-
-**Part-2: OpenEO**
-
-- 11:00 Getting started with OpenEO (15 minutes)
-- 11:15 Accessing data with OpenEO (25 minutes)
-- 11:40 Processing data with OpenEO (30 minutes)
-- 12:10 Working with data cubes with OpenEO (20 minutes)
-- 12:30 Lunch
-
-**Part-3: Unlocking the Power of Space Data with Pangeo & OpenEO**
-
-- 14:00 Understanding what OpenEO does best and how to exploit it to easily streamline your data analysis (25 minutes)
-- 14:25 Scaling with OpenEO (25 minutes)
-- 14:50 Understanding when and how to exploit Pangeo to customise your algorithm and analyse multiple data sources  (20 minutes)
-- 15:10 Introduction to chunking  (20 minutes)
-- 15:30 Break
-- 16:00 Scaling with Dask (30 minutes)
-- 16:30 Cloud-friendly access to archival data with kerchunk (25 minutes)
-- 16:55 Create Analysis Ready Cloud Optimised (ARCO) data (25 minutes)
-- 17:20 Common workflow that combines the best of the two “worlds” (30 minutes)
-- 17:50 Wrap-up and feedback survey (10 minutes)
+- Welcome (5 minutes)
+- Introduction and Motivation (15 minutes)
+- Overview of the EOSC services we will be using (10 minutes)
+- Follow along and Hands-on exercises (30 minutes)
+- Discussion and Q&A (20 minutes)
+- Wrap-up and feedback survey (10 minutes)
 
 ## Contributors ✨
 
