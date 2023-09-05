@@ -1,7 +1,7 @@
 # EOSC-Future Training in North Macedonia
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This repository contains the documentation, presentations and jupyter notebooks used for delivering EOSC-Future workshop in North Macedonia (11-13 September 2023).
@@ -29,6 +29,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://www.simula.no/people/annef"><img src="https://avatars.githubusercontent.com/u/8168508?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anne Fouilloux</b></sub></a><br /><a href="#ideas-annefou" title="Ideas, Planning, & Feedback">🤔</a> <a href="#design-annefou" title="Design">🎨</a> <a href="https://github.com/annefou/EOSC-Future-Training-North-Macedonia/commits?author=annefou" title="Code">💻</a> <a href="#content-annefou" title="Content">🖋</a> <a href="https://github.com/annefou/EOSC-Future-Training-North-Macedonia/commits?author=annefou" title="Documentation">📖</a> <a href="#tutorial-annefou" title="Tutorials">✅</a></td>
+  <td align="center"><a href="https://www.openaire.eu/shanmugasundaram-venkataraman-venkat"><img src="https://www.openaire.eu/templates/yootheme/cache/d8/sv_20210906-d8760d7e.webp" width="100px;" alt=""/><br /><sub><b>Shanmugasundaram Venkataraman (Venkat)</b></sub></a><br /><a href="#ideas-venkat" title="Ideas, Planning, & Feedback">🤔</a> <a href="#design-venkat" title="Design">🎨</a> <a href="https://github.com/annefou/EOSC-Future-Training-North-Macedonia/commits?author=venkat" title="Code">💻</a> <a href="#content-venkat" title="Content">🖋</a> <a href="https://github.com/annefou/EOSC-Future-Training-North-Macedonia/commits?author=venkat" title="Documentation">📖</a> <a href="#tutorial-venkat" title="Tutorials">✅</a></td>
   </tr>
 </table>
 
